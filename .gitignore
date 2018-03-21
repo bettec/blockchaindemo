@@ -57,3 +57,7 @@ typings/
 # dotenv environment variables file
 .env
 
+resource/chain-validation.txt
+resource/test-chain-validation.txt
+*.txt
+.DS_Store

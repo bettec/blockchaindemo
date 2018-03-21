@@ -1,0 +1,28 @@
+{
+  "name": "bcchain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "dev-test": "nodemon dev-test",
+    "start": "node ./app",
+    "dev": "nodemon ./app"
+  },
+  "author": "bc",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "brorand": "^1.1.0",
+    "crypto-js": "^3.1.9-1",
+    "eccrypto": "^1.0.3",
+    "elliptic": "^6.4.0",
+    "elliptic-utility": "^0.0.2",
+    "express": "^4.16.3",
+    "uuid": "^3.2.1",
+    "ws": "^5.0.0"
+  },
+  "devDependencies": {
+    "jest": "^22.4.2",
+    "nodemon": "^1.17.1"
+  }
+}
